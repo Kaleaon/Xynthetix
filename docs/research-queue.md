@@ -94,8 +94,9 @@ below feeds that destination:
       contraction, force, materials, cost — sourced.
 
 ### 3D body plan
-- [ ] Synthetic body plan map: subsystems, interfaces, and the open
+- [x] Synthetic body plan map: subsystems, interfaces, and the open
       questions per subsystem — the research map for this whole queue.
+      → `docs/body-plan-research-map.md` (2026-11-23).
 - [ ] Skeleton materials comparison: printed polymers, carbon tube,
       aluminium, composites — stiffness/weight/cost/repairability.
 - [ ] Joint design survey: bearing joints vs ligament/printed
@@ -126,12 +127,15 @@ below feeds that destination:
 ### Skin, power & thermal
 - [ ] Skin systems survey: silicone casting, 3D-printed elastomers,
       fur/hair attachment, thickness vs tactile transparency.
-- [ ] Warm body budget: heating a human-scale surface to 35–37 °C —
+- [x] Warm body budget: heating a human-scale surface to 35–37 °C —
       published power numbers, insulation strategies, control.
-- [ ] Battery survey for bodies: cell energy density, safe placement
+      → `docs/power-thermal-budget.md` (2026-11-23).
+- [x] Battery survey for bodies: cell energy density, safe placement
       in a soft body, hot-swap / split battery architectures, runtime
       estimates at realistic loads.
-- [ ] Cooling actuators & electronics in an insulated soft body.
+      → `docs/power-thermal-budget.md` (2026-11-23).
+- [x] Cooling actuators & electronics in an insulated soft body.
+      → `docs/power-thermal-budget.md` (2026-11-23).
 
 ### Sensing & control
 - [ ] Conductive yarn options for tactile sensing: resistance per
@@ -176,3 +180,16 @@ below feeds that destination:
   table, a knee-extensor load case (~kN tendon force at 100 kg
   scale), a scale map, failure/lifetime summary, and Xynthetix
   implications. 32 sources cited, all opened/read.
+- **2026-11-23 (Mon, batch)** — Added `docs/power-thermal-budget.md`:
+  heating physics for a 35–37 °C body (bare skin ~222 W loss at 21 °C
+  ambient; ~1 clo of cover cuts it to ~101 W), battery landscape
+  (261 Wh/kg cells → 180 Wh/kg pack planning figure; G1 hot-swap vs
+  Figure integrated architectures), cooling limits (~104 W max passive
+  rejection at 30 °C ambient), and a worked reference-body budget
+  (~235 W average, ~7.7 h on a 2.25 kWh pack). 19 sources.
+- **2026-11-23 (Mon, batch)** — Added `docs/body-plan-research-map.md`:
+  13-subsystem decomposition with interfaces, 3–4 open questions and a
+  first measurable experiment per subsystem, scaling analysis (joint
+  torque ×7.2 empirical to ×13.9 isometric from 1.4 m → 2.7 m — one
+  architecture cannot span the range), and a fill-in weight/power
+  budget template with closure checks. 36 sources.

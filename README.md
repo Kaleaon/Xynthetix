@@ -26,6 +26,12 @@ Everything in this repository is open source and stays open source.
 - [Artificial muscle landscape](docs/artificial-muscle-landscape.md) —
   sourced survey of DEA, McKibben, TCP, HASEL, SMA and motor/SEA
   actuation for full synthetic bodies, incl. the large-joint problem
+- [Body plan research map](docs/body-plan-research-map.md) —
+  subsystem decomposition, open questions, first experiments, and
+  scaling for complete synthetic bodies
+- [Power & thermal budget](docs/power-thermal-budget.md) — heating a
+  warm body, battery/runtime arithmetic, and cooling a soft insulated
+  body, with a worked reference-body budget
 - [Maypole braider prior art](docs/maypole-braider-prior-art.md) —
   survey of documented DIY / open braiding machines and the gaps
   Phase 1 fills
