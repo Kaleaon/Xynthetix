@@ -78,9 +78,10 @@ below feeds that destination:
       HASEL/electrohydraulic, SMA, hydraulic — force, strain, voltage/
       pressure, bandwidth, cycle life, cost, maturity, all sourced.
       → `docs/artificial-muscle-landscape.md` (2026-11-23).
-- [ ] DEA deep dive: stack/roll geometries, dielectric materials,
+- [x] DEA deep dive: stack/roll geometries, dielectric materials,
       drive voltages and electronics, failure modes, published force
       at human-muscle scale; what a replaceable DEA cartridge implies.
+      → `docs/dea-deep-dive.md` (2026-11-23).
 - [ ] Knee-extensor problem: what actuator classes can actually
       deliver large-joint torque at 100 kg body scale — sourced
       numbers, not vibes.
@@ -117,8 +118,9 @@ below feeds that destination:
 - [x] Survey of documented DIY / open maypole braiders: carrier
       counts, track/horn-gear designs, BOMs, what is actually replicable.
       → `docs/maypole-braider-prior-art.md` (2026-11-23).
-- [ ] Braid angle geometry check: simulator predictions vs published
+- [x] Braid angle geometry check: simulator predictions vs published
       maypole geometry relations, with worked numbers.
+      → `docs/braid-geometry-validation.md` (2026-11-23).
 - [ ] Yarn shortlist for first sleeves: PET, nylon, UHMWPE, aramid —
       friction / abrasion / elasticity comparison from datasheets.
 - [ ] Carrier schedule output: can the simulator emit a machine-ready
@@ -142,14 +144,16 @@ below feeds that destination:
       metre, wash / flex behaviour, sourcing.
 - [ ] Sensor layer: readout electronics options (voltage divider vs
       constant-current, multiplexing) costed from public listings.
-- [ ] Proprioception options: encoders, stretch sensors, muscle
+- [x] Proprioception options: encoders, stretch sensors, muscle
       self-sensing (DEA/HASEL capacitance), fusion approaches.
+      → `docs/sensing-proprioception-survey.md` (2026-11-23).
 - [ ] Learned control for tendon-driven bodies: sim-to-real state of
       the art, MuJoCo/Isaac tooling, open datasets.
 
 ### Landscape & safety
-- [ ] Allonic 3D Tissue Braiding: public technical claims inventory,
+- [x] Allonic 3D Tissue Braiding: public technical claims inventory,
       dated and sourced, no speculation presented as fact.
+      → `docs/allonic-claims-inventory.md` (2026-11-23).
 - [ ] Open-source humanoid / body projects inventory: what exists,
       licences, what to interoperate with.
 - [ ] Safety standards landscape for personal robots: ISO 13482 and
@@ -193,3 +197,29 @@ below feeds that destination:
   torque ×7.2 empirical to ×13.9 isometric from 1.4 m → 2.7 m — one
   architecture cannot span the range), and a fill-in weight/power
   budget template with closure checks. 36 sources.
+- **2026-11-23 (Mon, batch)** — Added `docs/dea-deep-dive.md`:
+  DEA geometries, dielectric/electrode materials, HV drive, lifetime.
+  Key gap: benchmarked devices deliver 10–32 N (largest found 66 N);
+  a 100 kg stair-climbing knee needs ~250 cm² of DEA at best measured
+  stack stress — not a prime mover today. Electrode process, not
+  dielectric, is the lifetime lever (<10⁵ vs >10⁷ cycles). 34 sources.
+- **2026-11-23 (Mon, batch)** — Added
+  `docs/sensing-proprioception-survey.md`: tactile technologies,
+  textile/braided sensor skins, muscle self-sensing. Our sensor spec's
+  architecture matches the field consensus (iCub uses the same CDC
+  part), but five gaps flagged (G1–G5), incl. textile tactile lifetimes
+  of 10⁴–10⁵ cycles vs ≥3M for FSR film, and DEA/HASEL self-sensing
+  missing from the spec. 24 sources.
+- **2026-11-23 (Mon, batch)** — Added
+  `docs/braid-geometry-validation.md`: simulator formulas are exact
+  matches to published relations across all examples and sweeps.
+  Main flag is a convention, not an error: relations should be
+  evaluated at D + yarn thickness (standards use D + 2d); on the
+  finger example that shifts angle +5.2° and picks −25%. Also: silent
+  jamming cap should report uncapped coverage + D_min. 14 sources.
+- **2026-11-23 (Mon, batch)** — Added
+  `docs/allonic-claims-inventory.md`: 10 platform, 6 materials, and 4
+  robot/body claims, each dated and sourced, plus 8 third-party
+  amplifications Allonic itself does not claim (incl. "patented" and
+  "OpenAI-backed" — no patent filing was locatable). Speed/cost claims
+  shift between sources with no published test data. 19 sources.

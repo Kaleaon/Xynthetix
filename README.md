@@ -26,6 +26,12 @@ Everything in this repository is open source and stays open source.
 - [Artificial muscle landscape](docs/artificial-muscle-landscape.md) —
   sourced survey of DEA, McKibben, TCP, HASEL, SMA and motor/SEA
   actuation for full synthetic bodies, incl. the large-joint problem
+- [DEA deep dive](docs/dea-deep-dive.md) — dielectric elastomer
+  actuators in depth: geometries, materials, HV drive, lifetime, and
+  the honest large-joint gap
+- [Sensing & proprioception survey](docs/sensing-proprioception-survey.md) —
+  tactile skins, textile/braided sensing, muscle self-sensing, and
+  gaps found in our own sensor layer spec
 - [Body plan research map](docs/body-plan-research-map.md) —
   subsystem decomposition, open questions, first experiments, and
   scaling for complete synthetic bodies
@@ -35,6 +41,12 @@ Everything in this repository is open source and stays open source.
 - [Maypole braider prior art](docs/maypole-braider-prior-art.md) —
   survey of documented DIY / open braiding machines and the gaps
   Phase 1 fills
+- [Allonic claims inventory](docs/allonic-claims-inventory.md) —
+  every public technical claim by the closed 3D Tissue Braiding
+  platform, dated and sourced, with a numbers audit
+- [Braid geometry validation](docs/braid-geometry-validation.md) —
+  simulator predictions checked against published maypole geometry
+  relations, with worked numbers and flagged corrections
 - [`.braid` specification v0](docs/braid-spec.md)
 - [braidpy evaluation](docs/braidpy-evaluation.md) — prior art for
   horn-gear machine modelling, and our adoption decision
