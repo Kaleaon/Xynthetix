@@ -74,9 +74,10 @@ below feeds that destination:
 ## Backlog
 
 ### Artificial muscles
-- [ ] Artificial muscle landscape survey: DEA, McKibben, TCP,
+- [x] Artificial muscle landscape survey: DEA, McKibben, TCP,
       HASEL/electrohydraulic, SMA, hydraulic — force, strain, voltage/
       pressure, bandwidth, cycle life, cost, maturity, all sourced.
+      → `docs/artificial-muscle-landscape.md` (2026-11-23).
 - [ ] DEA deep dive: stack/roll geometries, dielectric materials,
       drive voltages and electronics, failure modes, published force
       at human-muscle scale; what a replaceable DEA cartridge implies.
@@ -167,3 +168,11 @@ below feeds that destination:
   artificial muscles, the 3D body plan, skin/power/thermal, sensing
   & control, landscape — rotation and backlog rewritten. Artificial
   muscle landscape survey started the same day.
+- **2026-11-23 (Mon)** — Added `docs/artificial-muscle-landscape.md`:
+  artificial muscle landscape survey covering DEA (deepest: stack,
+  roll, cone, DEMES geometries, drive/self-sensing, lifetime
+  evidence), McKibben pneumatic + hydraulic, TCP, HASEL/Peano-HASEL,
+  SMA, and the motor/SEA/tendon baseline, with a sourced comparison
+  table, a knee-extensor load case (~kN tendon force at 100 kg
+  scale), a scale map, failure/lifetime summary, and Xynthetix
+  implications. 32 sources cited, all opened/read.

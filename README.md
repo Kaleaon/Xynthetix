@@ -23,6 +23,9 @@ Everything in this repository is open source and stays open source.
 ## Docs
 
 - [Company roadmap](docs/company-roadmap.md)
+- [Artificial muscle landscape](docs/artificial-muscle-landscape.md) —
+  sourced survey of DEA, McKibben, TCP, HASEL, SMA and motor/SEA
+  actuation for full synthetic bodies, incl. the large-joint problem
 - [Maypole braider prior art](docs/maypole-braider-prior-art.md) —
   survey of documented DIY / open braiding machines and the gaps
   Phase 1 fills
