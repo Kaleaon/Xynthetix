@@ -44,8 +44,9 @@ No filler, no personal information, everything here stays open source.
 
 ## Backlog (seeded 2026-11-23)
 
-- [ ] Survey of documented DIY / open maypole braiders: carrier
+- [x] Survey of documented DIY / open maypole braiders: carrier
       counts, track/horn-gear designs, BOMs, what is actually replicable.
+      → `docs/maypole-braider-prior-art.md` (2026-11-23).
 - [ ] Braid angle geometry check: simulator predictions vs published
       maypole geometry relations, with worked numbers.
 - [ ] LT-PAM (HardwareX 2026) replication data sheet: pressures,
@@ -65,3 +66,11 @@ No filler, no personal information, everything here stays open source.
 
 - **2026-11-23 (Mon)** — Queue created; first run started:
   DIY / open maypole braider prior-art survey.
+- **2026-11-23 (Mon)** — Added `docs/maypole-braider-prior-art.md`:
+  survey of 5 documented DIY builds (Fraens 12-carrier, kmatch98,
+  Caitlyn B OpenSCAD, Nico71 LEGO, one video-only build) plus
+  industrial/academic design parameters (4-slot horn gears, 1F1E
+  occupancy, tension data), replicability table, Phase 1 gap list,
+  and a 3-architecture shortlist. 15 sources, all opened and cited.
+  Headline finding: the only complete desktop design is paid /
+  personal-use licensed; no openly licensed complete braider exists.

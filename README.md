@@ -23,6 +23,9 @@ Everything in this repository is open source and stays open source.
 ## Docs
 
 - [Company roadmap](docs/company-roadmap.md)
+- [Maypole braider prior art](docs/maypole-braider-prior-art.md) —
+  survey of documented DIY / open braiding machines and the gaps
+  Phase 1 fills
 - [`.braid` specification v0](docs/braid-spec.md)
 - [braidpy evaluation](docs/braidpy-evaluation.md) — prior art for
   horn-gear machine modelling, and our adoption decision
