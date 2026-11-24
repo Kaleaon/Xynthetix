@@ -35,6 +35,11 @@ Everything in this repository is open source and stays open source.
 - [Body plan research map](docs/body-plan-research-map.md) —
   subsystem decomposition, open questions, first experiments, and
   scaling for complete synthetic bodies
+- [Skeleton materials comparison](docs/skeleton-materials-comparison.md) —
+  printed polymers, carbon tube, aluminium, steel, titanium —
+  stiffness/weight/cost/repairability with a worked femur example:
+  metals tie on specific stiffness, carbon is 3.4× lighter, printed
+  polymer cannot be a human-scale femur
 - [Power & thermal budget](docs/power-thermal-budget.md) — heating a
   warm body, battery/runtime arithmetic, and cooling a soft insulated
   body, with a worked reference-body budget

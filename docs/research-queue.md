@@ -98,8 +98,9 @@ below feeds that destination:
 - [x] Synthetic body plan map: subsystems, interfaces, and the open
       questions per subsystem — the research map for this whole queue.
       → `docs/body-plan-research-map.md` (2026-11-23).
-- [ ] Skeleton materials comparison: printed polymers, carbon tube,
+- [x] Skeleton materials comparison: printed polymers, carbon tube,
       aluminium, composites — stiffness/weight/cost/repairability.
+      → `docs/skeleton-materials-comparison.md` (2026-11-24).
 - [ ] Joint design survey: bearing joints vs ligament/printed
       compliant joints (incl. the UTokyo Yoshimura TPU work), range
       of motion, backdrivability, wear.
@@ -223,3 +224,20 @@ below feeds that destination:
   amplifications Allonic itself does not claim (incl. "patented" and
   "OpenAI-backed" — no patent filing was locatable). Speed/cost claims
   shift between sources with no published test data. 19 sources.
+- **2026-11-24 (Tue)** — Added
+  `docs/skeleton-materials-comparison.md`: printed polymers, carbon
+  tube, aluminium, steel, titanium compared on stiffness, weight,
+  cost, fatigue/creep, and repairability, with a worked femur link
+  at equal bending stiffness (450 mm, 30 mm OD). Headline findings:
+  all three metals land at ~187 g — specific stiffness is
+  25.5–25.7 GPa per g/cm³ for aluminium, steel, and titanium alike,
+  so metal choice is about strength/fatigue/cost, never stiffness
+  per weight; pultruded carbon tube is 54 g (3.4× lighter) but
+  transverse modulus is only 8.7 GPa; printed polymer needs a
+  51–62 mm solid rod weighing 1.1–1.35 kg and still cannot be a
+  human-proportioned femur — it belongs in housings and covers,
+  not primary load paths. Cost flips the ranking: aluminium femur
+  ~$2–$12, carbon ~$8–$10, a solid Onyx femur ~$270 of filament
+  alone. Recommendation: aluminium joint blocks + carbon spars +
+  printed PA12/Onyx covers. 31 sources cited, all opened/read.
+  No code changed; no tests to run.
