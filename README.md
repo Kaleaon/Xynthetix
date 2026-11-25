@@ -52,6 +52,10 @@ Everything in this repository is open source and stays open source.
 - [Braid geometry validation](docs/braid-geometry-validation.md) —
   simulator predictions checked against published maypole geometry
   relations, with worked numbers and flagged corrections
+- [Yarn shortlist for first sleeves](docs/yarn-shortlist-first-sleeves.md) —
+  PET, nylon 6,6, UHMWPE, aramid and Vectran compared from datasheets
+  for braided sleeves and tendons, with worked break forces, a buying
+  order, and the handling traps for each fibre
 - [`.braid` specification v0](docs/braid-spec.md)
 - [braidpy evaluation](docs/braidpy-evaluation.md) — prior art for
   horn-gear machine modelling, and our adoption decision

@@ -122,8 +122,9 @@ below feeds that destination:
 - [x] Braid angle geometry check: simulator predictions vs published
       maypole geometry relations, with worked numbers.
       → `docs/braid-geometry-validation.md` (2026-11-23).
-- [ ] Yarn shortlist for first sleeves: PET, nylon, UHMWPE, aramid —
+- [x] Yarn shortlist for first sleeves: PET, nylon, UHMWPE, aramid —
       friction / abrasion / elasticity comparison from datasheets.
+      → `docs/yarn-shortlist-first-sleeves.md` (2026-11-25).
 - [ ] Carrier schedule output: can the simulator emit a machine-ready
       carrier / take-up schedule? Design note first, code second.
 
@@ -241,3 +242,21 @@ below feeds that destination:
   alone. Recommendation: aluminium joint blocks + carbon spars +
   printed PA12/Onyx covers. 31 sources cited, all opened/read.
   No code changed; no tests to run.
+- **2026-11-25 (Wed)** — Added
+  `docs/yarn-shortlist-first-sleeves.md`: PET, nylon 6,6, UHMWPE
+  (Dyneema SK78 / Spectra S-900), aramid (Kevlar 49), and Vectran HT
+  compared from manufacturer datasheets on tenacity, modulus,
+  elongation, density, melt temperature, moisture, creep, abrasion,
+  flex fatigue, and friction, with worked break forces and yarn
+  diameters at braiding linear densities and a 16-carrier sleeve
+  load estimate (SK78 sleeve ≈6,400–7,900 N axial at the 65–80%
+  braid derating vs ≈1,100–1,400 N for PET HT). Headline findings:
+  PET is the learning yarn; SK78 is the load yarn but its μ ≈ 0.05
+  fibre–fibre friction makes knots slip and braids walk, and it
+  melts at 147 °C; aramid is disqualified as a flexing sleeve yarn
+  (poor bending fatigue, fibrillation, poor abrasion); Vectran is
+  the dimensional-stability yarn (creep ~5× less than Kevlar per
+  NASA testing, <0.1% moisture). Buying order: PET → nylon →
+  SK78 → Vectran → Kevlar only on a named heat/cut need. 17 sources
+  cited, all opened/read. No code changed; tests run anyway:
+  `python -m unittest discover -s tests` — 14 tests, OK.
