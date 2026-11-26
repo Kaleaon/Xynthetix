@@ -43,6 +43,10 @@ Everything in this repository is open source and stays open source.
 - [Power & thermal budget](docs/power-thermal-budget.md) — heating a
   warm body, battery/runtime arithmetic, and cooling a soft insulated
   body, with a worked reference-body budget
+- [Skin systems survey](docs/skin-systems-survey.md) — cast silicone
+  vs 3D-printed elastomers, fur/hair attachment, and thickness vs
+  tactile transparency, with a worked skin mass budget and the
+  sensitivity-vs-thickness experiment still to run
 - [Maypole braider prior art](docs/maypole-braider-prior-art.md) —
   survey of documented DIY / open braiding machines and the gaps
   Phase 1 fills

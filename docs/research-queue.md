@@ -129,8 +129,9 @@ below feeds that destination:
       carrier / take-up schedule? Design note first, code second.
 
 ### Skin, power & thermal
-- [ ] Skin systems survey: silicone casting, 3D-printed elastomers,
+- [x] Skin systems survey: silicone casting, 3D-printed elastomers,
       fur/hair attachment, thickness vs tactile transparency.
+      → `docs/skin-systems-survey.md` (2026-11-26).
 - [x] Warm body budget: heating a human-scale surface to 35–37 °C —
       published power numbers, insulation strategies, control.
       → `docs/power-thermal-budget.md` (2026-11-23).
@@ -260,3 +261,23 @@ below feeds that destination:
   SK78 → Vectran → Kevlar only on a named heat/cut need. 17 sources
   cited, all opened/read. No code changed; tests run anyway:
   `python -m unittest discover -s tests` — 14 tests, OK.
+- **2026-11-26 (Thu)** — Added
+  `docs/skin-systems-survey.md`: cast silicone (Ecoflex 00-30 vs
+  Dragon Skin 10–20, zoned soft/durable), 3D-printed elastomers
+  (FDM TPU too hard, Agilus30 and Formlabs Silicone 40A as the
+  closest printed analogues — still far below cast silicone on
+  elongation/tear), fur/hair attachment (fursuit sewing most
+  repairable, flocking least, hair punching durable but slow),
+  and thickness vs tactile transparency (GelSight <2.5 mm,
+  LuxTac 3.5 mm resolving 104 mN; no parametric
+  sensitivity-vs-thickness study exists — flagged as the cheap
+  decisive experiment to run). Self-healing is lab-only (Bao 2012,
+  Terryn 2017, Menasce 2023) with no buyable product; open-source
+  skins LuxTac and Digit 360 are both non-commercial licences.
+  Headline findings: a 2–3 mm skin costs 4–6 kg on the 1.9 m²
+  reference body, and fur must be a removable layer calibrated
+  through, not before attachment. 24 sources opened/read (by the
+  research subagent via curl — parent browser tools E2BIG-blocked
+  this session). 10 gaps logged, incl. silicone $/kg and Wacker/
+  Shin-Etsu grades unverified. No code changed; no tests to run.
+  README linked.
