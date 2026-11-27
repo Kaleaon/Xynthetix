@@ -32,6 +32,10 @@ Everything in this repository is open source and stays open source.
 - [Sensing & proprioception survey](docs/sensing-proprioception-survey.md) —
   tactile skins, textile/braided sensing, muscle self-sensing, and
   gaps found in our own sensor layer spec
+- [Conductive yarn options for tactile sensing](docs/conductive-yarn-tactile-sensing.md) —
+  silver-coated nylon vs stainless thread vs PEDOT:PSS yarns: resistance
+  per metre, gauge factor and drift, wash behaviour (bleach kills silver),
+  and a buying order for first tactile experiments
 - [Body plan research map](docs/body-plan-research-map.md) —
   subsystem decomposition, open questions, first experiments, and
   scaling for complete synthetic bodies

@@ -143,8 +143,9 @@ below feeds that destination:
       → `docs/power-thermal-budget.md` (2026-11-23).
 
 ### Sensing & control
-- [ ] Conductive yarn options for tactile sensing: resistance per
+- [x] Conductive yarn options for tactile sensing: resistance per
       metre, wash / flex behaviour, sourcing.
+      → `docs/conductive-yarn-tactile-sensing.md` (2026-11-27).
 - [ ] Sensor layer: readout electronics options (voltage divider vs
       constant-current, multiplexing) costed from public listings.
 - [x] Proprioception options: encoders, stretch sensors, muscle
@@ -280,4 +281,26 @@ below feeds that destination:
   research subagent via curl — parent browser tools E2BIG-blocked
   this session). 10 gaps logged, incl. silicone $/kg and Wacker/
   Shin-Etsu grades unverified. No code changed; no tests to run.
-  README linked.
+  README linked. Push verified: remote main
+  927909b040578c7c60c93820ba7ea61b4a6042b0, message/date match.
+- **2026-11-27 (Fri)** — Added
+  `docs/conductive-yarn-tactile-sensing.md`: silver-coated nylon,
+  stainless steel thread, PEDOT:PSS-coated yarns, and carbon/copper
+  options compared from manufacturer listings and published
+  yarn-level sensor data. Headline findings: silver-coated nylon is
+  the sensing yarn (300–1,500 Ω/m, gauge factors 5–22 over 4–12%
+  strain) and stainless thread is the wiring yarn (33–92 Ω/m,
+  washable, non-oxidising, but cannot sense); resistance across
+  buyable yarns spans ~30 Ω/m to ~250 kΩ/m, so yarn choice is a
+  readout choice; drift (19–64% over ten cycles) and bleach in
+  washing (silver 18% → 1.1% surface, past 10 MΩ after 30 cycles)
+  are the real limits, not sensitivity. Buying order: Adafruit
+  stainless 640/641 for wiring, Adafruit 1088 fibre for a first
+  contact-sensor experiment, then quote Shieldex HCB / Madeira HC 40
+  for sensing. 8 gaps logged (G1–G8), incl. no public Ω/m for
+  Bekinox/Shieldex 235/36/Syscom and no braid-abrasion data for
+  conductive yarns. 24 sources cited, all opened/read (research via
+  curl — browser tools E2BIG-blocked this session; Semantic Scholar
+  / OpenAlex / Crossref APIs 429 through the proxy, papers found via
+  PubMed E-utilities and read in full on PMC). No code changed; no
+  tests to run. README linked.
