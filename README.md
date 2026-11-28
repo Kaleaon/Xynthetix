@@ -68,6 +68,12 @@ Everything in this repository is open source and stays open source.
   PET, nylon 6,6, UHMWPE, aramid and Vectran compared from datasheets
   for braided sleeves and tendons, with worked break forces, a buying
   order, and the handling traps for each fibre
+- arXiv sweep, November 2026 — recent-literature updates tied back to
+  the docs above: [materials](docs/arxiv-materials-update-2026-11.md),
+  [actuators](docs/arxiv-actuators-update-2026-11.md),
+  [body design](docs/arxiv-body-design-update-2026-11.md),
+  [sensing](docs/arxiv-sensing-update-2026-11.md),
+  [control & compute](docs/arxiv-control-update-2026-11.md)
 - [`.braid` specification v0](docs/braid-spec.md)
 - [braidpy evaluation](docs/braidpy-evaluation.md) — prior art for
   horn-gear machine modelling, and our adoption decision

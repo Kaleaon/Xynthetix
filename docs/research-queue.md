@@ -151,8 +151,9 @@ below feeds that destination:
 - [x] Proprioception options: encoders, stretch sensors, muscle
       self-sensing (DEA/HASEL capacitance), fusion approaches.
       → `docs/sensing-proprioception-survey.md` (2026-11-23).
-- [ ] Learned control for tendon-driven bodies: sim-to-real state of
+- [x] Learned control for tendon-driven bodies: sim-to-real state of
       the art, MuJoCo/Isaac tooling, open datasets.
+      → `docs/arxiv-control-update-2026-11.md` (2026-11-28).
 
 ### Landscape & safety
 - [x] Allonic 3D Tissue Braiding: public technical claims inventory,
@@ -330,3 +331,22 @@ below feeds that destination:
   changed; no tests to run. README linked.
   changed; no tests to run. README linked. Push verified: remote main
   c06109da93b35ba3d453241b8a3ecf1fc3588416, message/date match.
+- **2026-11-28 (Sat, arXiv sweep)** — Joe directed an arXiv-focused
+  sweep across the whole programme. Five update docs added, 137 papers
+  total, all read at abstract level via the arXiv API:
+  `docs/arxiv-materials-update-2026-11.md` (21 papers; 220 V DEA on
+  8 µm films updates the deep dive's drive framing; Ni/liquid-metal
+  thermal composite 7.5 W/m·K; CNT fibre missing from the yarn
+  shortlist), `docs/arxiv-actuators-update-2026-11.md` (30; the
+  large-joint verdict survives — no soft actuator nears the knee
+  budget; HASEL DC-decay caveat; untethered in-actuator pneumatics),
+  `docs/arxiv-body-design-update-2026-11.md` (35 from ~215 screened;
+  swappable muscle modules exist but no published cartridge socket;
+  tendon vs linkage hand fork; articulated spine is a literature gap),
+  `docs/arxiv-sensing-update-2026-11.md` (24; gap G2 substantially
+  answered — single-channel tactile skin at 3,500 FPS; G3 is now a spec
+  gap not a literature gap; G1 textile durability unmoved at 10⁴–10⁵),
+  `docs/arxiv-control-update-2026-11.md` (27; tendon sim-to-real
+  cracked for small systems via actuator-model learning; MuJoCable
+  adds Capstan-friction cable routing to MuJoCo — adopt-now for the
+  Phase 1 finger sim). Learned-control backlog item checked off.
