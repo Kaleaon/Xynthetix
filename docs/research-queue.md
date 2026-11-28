@@ -158,8 +158,9 @@ below feeds that destination:
 - [x] Allonic 3D Tissue Braiding: public technical claims inventory,
       dated and sourced, no speculation presented as fact.
       → `docs/allonic-claims-inventory.md` (2026-11-23).
-- [ ] Open-source humanoid / body projects inventory: what exists,
+- [x] Open-source humanoid / body projects inventory: what exists,
       licences, what to interoperate with.
+      → `docs/open-source-humanoid-inventory.md` (2026-11-28).
 - [ ] Safety standards landscape for personal robots: ISO 13482 and
       neighbours, what they require, testing approaches.
 
@@ -303,4 +304,27 @@ below feeds that destination:
   curl — browser tools E2BIG-blocked this session; Semantic Scholar
   / OpenAlex / Crossref APIs 429 through the proxy, papers found via
   PubMed E-utilities and read in full on PMC). No code changed; no
-  tests to run. README linked.
+  tests to run. README linked. Push verified: remote main
+  55965157922ba79174616d1cc1f8f0f6558d6d03, message/date match.
+- **2026-11-28 (Sat)** — Added
+  `docs/open-source-humanoid-inventory.md`: 25 open humanoid, hand,
+  and simulation/control projects (Poppy, iCub, Reachy 2/Mini,
+  Berkeley Humanoid Lite, OP3, Mini Cheetah, ODRI, K-Scale Stompy,
+  InMoov, LeRobot/SO-101, Yale OpenHand, LEAP Hand, MuJoCo, Isaac Lab,
+  ROS 2 control, Drake, Pinocchio, OpenSim, Gazebo, Webots, SOFA,
+  PyElastica, Soft Robotics Toolkit) with licences read from each
+  project's own LICENSE file, activity status from the GitHub API
+  on the day, and a per-project what-transfers / what-does-not
+  verdict, plus the closed platforms (Unitree hardware, Nadia,
+  Optimus, Figure, 1X, Atlas) labelled as closed. Headline findings:
+  no open DEA-driven humanoid exists; no open braided-muscle body
+  exists; no open body approaches the 2+ m Titan scale; the best
+  dexterous open hands are all non-commercial; six licences remain
+  unverified (InMoov, Berkeley full-size, Soft Robotics Toolkit,
+  somogym, DASH hand, Stompy hardware). Recommendations: MuJoCo +
+  Pinocchio as simulation core, ROS 2 control as hardware layer,
+  Isaac Lab + LeRobot for learning, SO-101 now and ODRI legs next,
+  PyElastica first for soft-body sim. 46 sources cited, all opened/
+  read (research via GitHub API + curl — browser search E2BIG-blocked
+  this session; K-Scale site unreachable from this VM). No code
+  changed; no tests to run. README linked.

@@ -57,6 +57,10 @@ Everything in this repository is open source and stays open source.
 - [Allonic claims inventory](docs/allonic-claims-inventory.md) —
   every public technical claim by the closed 3D Tissue Braiding
   platform, dated and sourced, with a numbers audit
+- [Open-source humanoid / body projects inventory](docs/open-source-humanoid-inventory.md) —
+  25 open humanoid, hand, and simulation/control projects with
+  licences read from their own files, activity status, what transfers
+  to Xynthetix, and the closed platforms labelled as closed
 - [Braid geometry validation](docs/braid-geometry-validation.md) —
   simulator predictions checked against published maypole geometry
   relations, with worked numbers and flagged corrections
