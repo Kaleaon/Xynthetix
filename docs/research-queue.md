@@ -328,3 +328,5 @@ below feeds that destination:
   read (research via GitHub API + curl — browser search E2BIG-blocked
   this session; K-Scale site unreachable from this VM). No code
   changed; no tests to run. README linked.
+  changed; no tests to run. README linked. Push verified: remote main
+  c06109da93b35ba3d453241b8a3ecf1fc3588416, message/date match.
